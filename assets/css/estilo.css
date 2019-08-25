@@ -26,7 +26,7 @@
 .cabecalho__logo{
     width: 60px;
     height: 60px;
-    margin: 40px 0 0 40px;
+    margin: 30px 0 0 40px;
     float: left;
 }
 .cabecalho__titulo{
@@ -35,7 +35,7 @@
     font-size: 18px;
     text-align: left;
     padding: 30px;
-    margin: 20px 0 0 80px;
+    margin: 10px 0 0 80px;
   }
 .cabecalho__subtitulo{
     color: #34e431;
@@ -46,7 +46,7 @@
     display: flex;
     flex-direction: column;
     float: right;
-    margin: -90px 0;
+    margin: -80px 30px;
 }
 @media(min-width: 600px){
     .menu{
