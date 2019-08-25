@@ -1,0 +1,110 @@
+/* CSS RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* CABEÇALHO */
+.cabecalho{
+    background-color: #4C4C4C;
+    background-image: linear-gradient(black, #4C4C4C);
+    flex-direction: column;
+    display: flex;
+}
+@media (min-width: 600px) {
+  .cabecalho{
+    flex-direction: column-reverse;
+  }
+}
+.cabecalho__logo{
+    width: 60px;
+    height: 60px;
+    margin: 30px 0 0 80px;
+    float: left;
+}
+.cabecalho__titulo{
+    color: white;
+    text-shadow: 0.5px 0.5px 1px black;
+    font-size: 18px;
+    text-align: left;
+    padding: 30px;
+    margin: 10px 0 0 120px;
+  }
+.cabecalho__subtitulo{
+    color: #34e431;
+    font-size: 10px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin: -60px 30px;
+}
+@media(min-width: 600px){
+    .menu{
+      flex-direction: row;
+    }
+  }
+  .menu__item > a{
+    padding: 20px;
+    text-decoration: none;
+    text-decoration-color: #34e431;
+    color: white;
+    display: block;
+  }
+  .menu__item > a:hover{
+    text-decoration: underline;
+    text-decoration-color: #34e431;
+  }
+
+
+  /* MAIN */
+  .secao1{
+      background-color: #2E302E;
+      padding: 50px;
+  }
+  .secao2{
+    background-color: #595B59;
+    padding: 50px;
+}
+  .titulo{
+      font-size: 26px;
+      color: white; 
+  }
+  .texto{
+      margin: 10px;
+      font-size: 14px;
+      color: white;
+      max-width: 300px;
+  }
+  @media(min-width: 600px){
+  .texto{
+      max-width: 600px;
+  }
+}
+  .ide__titulo{
+      font-size: 26px;
+      color: white;
+      text-align: center;
+  }
+  .ide__imagem{
+      width: 80px;
+      display: inline-block;
+      justify-content: center;
+  }
+  }
+
+
+/* RODAPÉ */
+
+
+
+
