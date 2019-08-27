@@ -6,61 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/estilo.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
-    <title>Hemmet</title>
+    <title>Emmet</title>
 </head>
 
 <body>
-
-    <header class="cabecalho container">
-        <div">
+    <header class="cabecalho">
+        <div>
             <img src="assets/images/emmet-logo-png-transparent.png" alt="Logotipo do Hemmet" class="cabecalho__logo">
-            <div class="cabecalho__titulo">HEMMET
+            <div class="cabecalho__titulo">EMMET
                 <div class="cabecalho__subtitulo">Tools for web developers</div>
             </div>
-            </div>
-            <nav>
-                <ul class="menu container">
-                    <li class="menu__item"><a href="#">Documentation</a></li>
-                    <li class="menu__item"><a href="#">Download</a></li>
-                    <li class="menu__item"><a href="#">Credits</a></li>
-                    <li class="menu__item"><a href="#">Blog</a></li>
-                </ul>
-            </nav>
+        </div>
+        <nav class="container">
+            <ul class="menu">
+                <li class="menu__item"><a href="#">Documentation</a></li>
+                <li class="menu__item"><a href="#">Download</a></li>
+                <li class="menu__item"><a href="#">Credits</a></li>
+                <li class="menu__item"><a href="#">Blog</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section class="abrevia container">
-            <div class="abrevia__titulo">Abreviattions</div>
-            <p class="abrevia__texto">Abbreviations are the heart of the Emmet toolkit: these special expressions are
+<!------------------------------------------------------------------------------------------------------------------------->
+        <section class="abrevia">
+            <div class="container">
+                <img class="abrevia__gif" src="assets/images/1.gif" alt="">
+            </div>
+            <div class="abrevia__titulo container">
+            <h1>Abreviattions</h1>
+                <p class="abrevia__texto">
+                Abbreviations are the heart of the Emmet toolkit: these special expressions are
                 parsed in runtime and transformed into structured code block, HTML for example. The abbreviation’s
                 syntax looks like CSS selectors with a few extensions specific to code generation. So every
                 web-developer already knows how to use it.</p>
+            </div>
         </section>
 
-        <section class="css container">
-            <div class="css__titulo"> CSS Abreviattions</div>
-            <p class="css__texto">While Emmet abbreviations are good for generating HTML, XML or any other structured
+        <section class="abrevia2">
+            <div class="container">
+                <img class="abrevia__gif2" src="assets/images/2.gif" alt="">
+            </div>
+            <div class="css__titulo container">
+            <h1>CSS Abreviattions</h1>
+                <p class="css__texto">While Emmet abbreviations are good for generating HTML, XML or any other structured
                 markup, it may look useless for CSS. You don’t want to write CSS selectors and transform them to CSS
                 selectors, right? The only thing Emmet can do for you is to provide shorthands for CSS properties, but
                 editors with native snippets and autocomplete can help you way better.</p>
+            </div>
         </section>
 
-        <section class="acoes container">
-            <div class="acoes__titulo">Actions</div>
-            <p class="acoes__texto">Emmet allows you to write large HTML code blocks at speed of light using well-known
+        <section class="abrevia">
+            <div class="container">
+                <img class="abrevia__gif" src="assets/images/3.gif" alt="">
+            </div>
+            <div class="acoes__titulo container">
+            <h1>Actions</h1>
+                <p class="acoes__texto">Emmet allows you to write large HTML code blocks at speed of light using well-known
                 CSS selectors. But it’s not the only thing that every web-developer needs: occasionally you have to edit
                 your HTML and CSS code to fix bugs and add new features.</p>
+            </div>
         </section>
 
-        <section class="custom container">
-            <h1 class="custom__titulo">Customization</h1>
-            <p class="custom__texto">Emmet offers wide range of tweaks you can use to fine-tune your plugin experience.
+        <section class="abrevia2">
+            <div class="container">
+                <img class="abrevia__gif2" src="assets/images/2.gif" alt="">
+            </div>
+            <div class="custom__titulo container">
+                <h1>Customization</h1>
+                <p class="custom__texto">Emmet offers wide range of tweaks you can use to fine-tune your plugin experience.
                 Almost all officially developed editor plugins (except PSPad and browser-based) has extensions support:
                 a special folder where you can put json and js files to extend Emmet. Please refer to README file
                 bundled with your editor’s plugin to find out where Emmet looks for extensions.</p>
+            </div>
         </section>
-
-        <section class="ide container">
+<!------------------------------------------------------------------------------------------------------------------------->
+        <section class="ide">
             <div class="ide__titulo">IDE using Emmet<div>
                     <div class="ide__imagens">
                         <img src="assets/images/phpstorm.png" alt="Logotipo ferramenta PhpStorm" class="ide__imagem">
@@ -71,7 +92,7 @@
         </section>
     </main>
 
-    <footer class="rodape container">
+    <footer class="rodape">
         <div class="rodape__box">
             <div class="rodape__emmet-titulo">EMMET
                 <div class="rodape__emmet-subtitulo">Tools for web developers<br>_________________________</br>
@@ -97,15 +118,15 @@
                     </a>
                 </div>
 
-                <div>
+                <div class="rodape__imagens">
                     <a href="http://www.facebook.com" title="Facebook Website">
-                        <img class="rodape__imagens" src="assets/images/facebook.png" alt="Logotipo do Facebook">
+                        <img src="assets/images/facebook.png" alt="Logotipo do Facebook">
                     </a>
                     <a href="http://www.twitter.com" title="Twitter Website">
-                        <img class="rodape__imagens" src="assets/images/twitter.png" alt="Logotipo do twitter">
+                        <img src="assets/images/twitter.png" alt="Logotipo do twitter">
                     </a>
                     <a href="https://github.com/emmetio" title="Github Website">
-                        <img class="rodape__imagens" src="assets/images/github.png" alt="Logotipo do Github">
+                        <img src="assets/images/github.png" alt="Logotipo do Github">
                     </a>
                 </div>
             </div>
