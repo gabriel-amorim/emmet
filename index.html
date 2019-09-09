@@ -6,27 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/estilo.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
     <title>Emmet</title>
 </head>
 
 
 <body>
-    <header class="cabecalho">
-        <div>
-            <img src="assets/images/emmet-logo-png-transparent.png" alt="Logotipo do Hemmet" class="cabecalho__logo">
-            <div class="cabecalho__titulo">EMMET
-                <div class="cabecalho__subtitulo">Tools for web developers</div>
-            </div>
-        </div>
-        <nav class="container">
-            <ul class="menu">
-                <li class="menu__item"><a href="#">Documentation</a></li>
-                <li class="menu__item"><a href="#">Download</a></li>
-                <li class="menu__item"><a href="#">Credits</a></li>
-                <li class="menu__item"><a href="#">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header class="cabecalho">    
+            <div class="container">
+                <div class="utils">
+                    <a href="index.html"><img class="logo helper" src="assets/images/emmet-logo-png-transparent.png" alt="Logotipo do Hemmet"></a>
+                    <h1 class="cabecalho__titulo">EMMET <div><h2 class="cabecalho__subtitulo ">Tools for web developers</h2>
+                    </div> </h1>
+                    <img onclick="openClose()" class="menu__selector" src="assets/images/menu-4-24.png" alt="">
+                    <div class="container">
+                        <ul class="menu" id="links">
+                            <li class="menu__item"><a href="#">Documentation</a></li>
+                            <li class="menu__item"><a href="#">Download</a></li>
+                            <li class="menu__item"><a href="#">Credits</a></li>
+                            <li class="menu__item"><a href="#">Blog</a></li>
+                        </ul>    
+                    </div> 
+                </div>  
+            </div>  
+        </header>
+        <script>
+            let icon = document.querySelector("links");
+            function openClose(){
+                if (document.getElementById('links').classList.contains('disable')){
+                    document.getElementById('links').classList.remove('disable')
+                }
+                else(document.getElementById('links').classList.add('disable'))
+                }
+        </script>
 
     <main>
         <section class="abrevia">
