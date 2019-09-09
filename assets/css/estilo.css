@@ -82,18 +82,21 @@
     font-size: 14px;
     max-width: 560px;
     margin-top: 30px;
+    display: block;
 }
 .abrevia__titulo2{
     padding-left: 600px;
     padding-top: 80px;
     color: white;
     font-size: 26px;
+    margin-right: 20px;
 }
 .abrevia__texto2{
     color: white;
     font-size: 14px;
     max-width: 560px;
     margin-top: 30px;
+    margin-right: 10px;
 }
 .abrevia__gif{
     max-width: 400px;
@@ -109,7 +112,7 @@
     max-width: 400px;
     display: flex;
     flex-direction: row-reverse;
-    float: left;
+    /* float: left; */
     margin-top: 7px;
     margin-top: -160px;
     margin-left: 30px;
@@ -152,7 +155,7 @@
         color: white;
         font-size: 14px;
         max-width: 450px;
-        margin-top: 10px auto;
+        margin-top: 10px;
         text-align: justify;
     }
     .abrevia__titulo2{
@@ -238,6 +241,11 @@
 .ide__imagens{
     width: 65px;
   }
+  @media(max-width: 600px) {
+      .ide__imagens{
+          width: 50px;
+      }
+  }
   .ide__card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 150px;
@@ -250,10 +258,10 @@
 }
 @media(max-width: 600px) {
     .ide__card{
-        width: 100px;
-        height: 130px;
+        width: 80px;
+        height: 115px;
         padding: 0;
-        padding-top: 10px;
+        padding-top: 12px;
     }
 }
 .ide__card:hover{
