@@ -14,7 +14,7 @@
 .cabecalho{
     background-color: #4C4C4C;
     background-image: linear-gradient(black, #4C4C4C);
-    padding: 40px;
+    padding: 20px;
 }
 
 .utils{
@@ -70,7 +70,7 @@
 @media(min-width:650px){
     .menu{
     margin-top: -60px;
-    margin-right: 20px; 
+    margin-right: 30px;
     }
 }
 .disable{
