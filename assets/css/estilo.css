@@ -14,10 +14,11 @@
 .cabecalho{
     background-color: #4C4C4C;
     background-image: linear-gradient(black, #4C4C4C);
+    padding: 40px;
 }
 
 .utils{
-    padding-top: 40px;
+    padding-top: 10px;
     overflow: hidden;
 }
 
@@ -26,6 +27,7 @@
     vertical-align: middle;
     width: 65px;
     height: 65px;
+    margin-left: 30px;
     text-decoration: none;
 }
 
@@ -62,7 +64,9 @@
     list-style: none;
     display: none;
     flex-direction: column;
-    text-align: right;
+    text-align: center;
+    margin-top: -60px;
+    margin-right: 20px; 
 }
 
 .disable{
@@ -91,7 +95,6 @@ img{
     .menu__selector{
         display: none;
     }
-
     .menu{
         display: flex;
         flex-direction: row;
@@ -293,7 +296,7 @@ img{
     justify-content: center;
 }
 .ide__imagens{
-    width: 65px;
+    width: 105px;
   }
 
   @media(max-width: 600px) {
@@ -304,7 +307,8 @@ img{
 
   .ide__card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 150px;
+    width: 220px;
+    height: 250px;
     text-align: center;
     margin: 10px;
     border: 2px gray solid;
@@ -336,9 +340,9 @@ img{
 
 .title__card {
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 35px;
     margin-bottom: 10px; 
   }
   @media(max-width: 600px) {
@@ -362,7 +366,7 @@ img{
 .rodape__emmet-titulo{
     color: white;
     text-shadow: 0.5px 0.5px 1px black;
-    font-size: 18px;
+    font-size: 22px;
     text-align: left;
     padding: 50px 20px;
 }
@@ -370,7 +374,7 @@ img{
 .rodape__emmet-subtitulo{
     text-align: left;
     color: gray;
-    font-size: 10px;
+    font-size: 12px;
     padding: 5px 0;
 }
 
