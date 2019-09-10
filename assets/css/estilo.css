@@ -64,17 +64,23 @@
     list-style: none;
     display: none;
     flex-direction: column;
-    text-align: center;
-    margin-top: -60px;
-    margin-right: 20px; 
+    align-items: center;
 }
 
+@media(min-width:650px){
+    .menu{
+    margin-top: -60px;
+    margin-right: 20px; 
+    }
+}
 .disable{
     display: flex;
 }
 
 .menu__item > a{
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 87px; 
     text-decoration: none;
     text-decoration-color: #34e431;
     color: white;
