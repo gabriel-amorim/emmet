@@ -65,6 +65,7 @@
     display: none;
     flex-direction: column;
     align-items: center;
+    margin-left: 50px;
 }
 
 @media(min-width:650px){
@@ -80,7 +81,7 @@
 .menu__item > a{
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 87px; 
+    padding-left: 37px; 
     text-decoration: none;
     text-decoration-color: #34e431;
     color: white;
@@ -97,7 +98,7 @@ img{
     text-decoration-color: #34e431;
 }
 
-@media (min-width: 650px){
+@media (min-width: 700px){
     .menu__selector{
         display: none;
     }
@@ -119,7 +120,7 @@ img{
 
   .abrevia2{
     background-color: #595B59;
-    height: 350px; padding: 40px;
+    height: 350px;
 }
 
 .abrevia__titulo{
@@ -139,7 +140,7 @@ img{
 }
 
 .abrevia__titulo2{
-    padding-left: 320px;
+    padding-left: 600px;
     padding-top: 40px;
     color: white;
     font-size: 26px;
@@ -149,7 +150,6 @@ img{
 .abrevia__texto2{
     color: white;
     font-size: 14px;
-    width: 550px;
     text-align: justify;
     max-width: 560px;
     margin-top: 30px;
@@ -171,7 +171,6 @@ img{
     max-width: 400px;
     display: flex;
     flex-direction: row-reverse;
-    /* float: left; */
     margin-top: 7px;
     margin-top: -180px;
     margin-left: 30px;
@@ -180,28 +179,25 @@ img{
 }
 
 @media(max-width: 1050px) {
-    .menu__item > a{
-        padding-left: 37px;
-    }
     .abrevia{
-        height: 550px;
+        height: 620px;
         display: flex;
         flex-direction: column;
     }
       .abrevia2{
-        height: 550px;
+        height: 620px;
         display: flex;
         flex-direction: column;
     }
     .abrevia__gif{
-        max-width: 450px;
+        max-width: 620px;
         display: block;
         margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
     }
     .abrevia__gif2{
-        max-width: 450px;
+        max-width: 620px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -213,12 +209,13 @@ img{
         font-size: 26px;
         margin: 0 auto;
         padding-left: 0;
+        text-align: center;
     }
     .abrevia__texto{
         color: white;
-        font-size: 14px;
-        max-width: 450px;
-        margin-top: 10px;
+        font-size: 16px;
+        max-width: 850px;
+        margin: 10px 30px;
         text-align: justify;
     }
     .abrevia__titulo2{
@@ -227,31 +224,32 @@ img{
         color: white;
         font-size: 26px;
         margin: 0 auto;
+        text-align: center;
     }
     .abrevia__texto2{
         color: white;
-        font-size: 14px;
-        max-width: 450px;
-        margin-top: 10px auto;
+        font-size: 16px;
+        max-width: 850px;
+        margin: 15px 30px;
         text-align: justify;
     }
 }
 
 @media(max-width: 600px) {
     .abrevia{
-        height: 550px;
+        height: 500px;
         display: flex;
         flex-direction: column;
     }
       .abrevia2{
-        height: 550px;
+        height: 520px;
         display: flex;
         flex-direction: column;
     }
     .abrevia__gif{
         max-width: 327px;
         display: block;
-        margin-top: 60px;
+        margin-top: 40px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -260,33 +258,31 @@ img{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 60px;
+        margin-top: 40px;
     }
     .abrevia__titulo{
-        padding-top: 50px;
+        padding-top: 30px;
         color: white;
-        font-size: 26px;
+        font-size: 20px;
         text-align: center;
     }
     .abrevia__texto{
         color: white;
         font-size: 14px;
         max-width: 327px;
-        width: 440px;
         margin-top: 15px;
         text-align: justify;
     }
     .abrevia__titulo2{
         padding-left: 0;
-        padding-top: 50px;
+        padding-top: 30px;
         color: white;
-        font-size: 26px;
+        font-size: 20px;
         text-align: center;
     }
     .abrevia__texto2{
         color: white;
         font-size: 14px;
-        width: 440px;
         max-width: 327px;
         margin-top: 15px;
         text-align: justify;
@@ -363,7 +359,7 @@ img{
 
 /* RODAPÉ */
 .rodape{
-    background-color: black;;
+    background-color: black;
 }
 
 .rodape__box{
@@ -377,7 +373,8 @@ img{
     text-shadow: 0.5px 0.5px 1px black;
     font-size: 22px;
     text-align: left;
-    padding: 50px 20px;
+    padding: 50px 0;
+    margin-left: 20px;
 }
 
 .rodape__emmet-subtitulo{
@@ -394,7 +391,7 @@ img{
 }
 
 .rodape__redes{
-    margin: 50px 20px;
+    margin: 50px 15px;
 }
 
 .rodape__imagens{
@@ -402,6 +399,7 @@ img{
     width: 20%;
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
 }
 
 .rodape__imagens > a{
@@ -409,4 +407,3 @@ img{
     display: block;
     padding: 5px;
 }
-
