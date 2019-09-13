@@ -12,121 +12,127 @@
 
 
 <body>
-    <header class="cabecalho">    
-            <div class="container">
-                <div class="utils">
-                    <a href="index.html" style="text-decoration: none">
-                    <img class="logo helper" title="Emmet" src="assets/images/emmet-logo-png-transparent.png" alt="Logotipo do Hemmet">
-                    </a>
-                    <h1 class="cabecalho__titulo">EMMET 
-                        <div>
-                            <h2 class="cabecalho__subtitulo ">Tools for web developers</h2>
-                        </div> 
-                    </h1>
-                    <img onclick="openClose()" class="menu__selector" src="assets/images/menu-4-24.png" alt="">
-                    <div class="container">
-                        <ul class="menu" id="links">
-                            <li class="menu__item"><a href="https://docs.emmet.io/">Documentation</a></li>
-                            <li class="menu__item"><a href="https://emmet.io/download/">Download</a></li>
-                            <li class="menu__item"><a href="https://emmet.io/credits/">Credits</a></li>
-                            <li class="menu__item"><a href="https://emmet.io/blog/">Blog</a></li>
-                        </ul>    
-                    </div> 
-                </div>  
-            </div>  
-        </header>
-        <script>
-            let icon = document.querySelector("links");
-            function openClose(){
-                if (document.getElementById('links').classList.contains('disable')){
-                    document.getElementById('links').classList.remove('disable')
-                }
-                else(document.getElementById('links').classList.add('disable'))
-                }
-        </script>
+    <header class="cabecalho">
+        <div class="container">
+            <div class="utils">
+                <a href="index.html" style="text-decoration: none">
+                    <img class="logo helper" title="Emmet" src="assets/images/emmet-logo-png-transparent.png"
+                        alt="Logotipo do Hemmet">
+                </a>
+                <h1 class="cabecalho__titulo">EMMET
+                    <div>
+                        <h2 class="cabecalho__subtitulo ">Tools for web developers</h2>
+                    </div>
+                </h1>
+                <img onclick="openClose()" class="menu__selector" src="assets/images/menu-4-24.png" alt="">
+                <div class="container">
+                    <ul class="menu" id="links">
+                        <li class="menu__item"><a href="https://docs.emmet.io/">Documentation</a></li>
+                        <li class="menu__item"><a href="https://emmet.io/download/">Download</a></li>
+                        <li class="menu__item"><a href="https://emmet.io/credits/">Credits</a></li>
+                        <li class="menu__item"><a href="https://emmet.io/blog/">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script>
+        let icon = document.querySelector("links");
+        function openClose() {
+            if (document.getElementById('links').classList.contains('disable')) {
+                document.getElementById('links').classList.remove('disable')
+            }
+            else (document.getElementById('links').classList.add('disable'))
+        }
+    </script>
 
     <main>
+
         <section class="abrevia">
-            <div class="abrevia__titulo container">
-            <h1>Abreviattions</h1>
-                <p class="abrevia__texto">
-                Abbreviations are the heart of the Emmet toolkit: these special expressions are
-                parsed in runtime and transformed into structured code block, HTML for example. The abbreviation’s
-                syntax looks like CSS selectors with a few extensions specific to code generation. So every
-                web-developer already knows how to use it.</p>
-            </div>
-            <div class="container">
-                <img class="abrevia__gif" src="assets/images/1.gif" alt="">
+            <div class="container box">
+                <img class="abrevia__gif" src="assets/images/2.gif" alt="">
+                <div class="abrevia__titulo">
+                    <h1>Abreviattions</h1>
+                    <p class="abrevia__texto">Abbreviations are the heart of the Emmet toolkit: these special expressions are
+                            parsed in runtime and transformed into structured code block, HTML for example. The abbreviation’s
+                            syntax looks like CSS selectors with a few extensions specific to code generation. So every
+                            web-developer already knows how to use it.</p>
+                </div>
             </div>
         </section>
 
         <section class="abrevia2">
-            <div class="abrevia__titulo2 container">
-            <h1>CSS Abreviattions</h1>
-                <p class="abrevia__texto2">While Emmet abbreviations are good for generating HTML, XML or any other structured
-                markup, it may look useless for CSS. You don’t want to write CSS selectors and transform them to CSS
-                selectors, right? The only thing Emmet can do for you is to provide shorthands for CSS properties, but
-                editors with native snippets and autocomplete can help you way better.</p>
-            </div>
-            <div class="container">
+            <div class="container box">
                 <img class="abrevia__gif2" src="assets/images/2.gif" alt="">
+                <div class="abrevia__titulo2">
+                    <h1>Actions</h1>
+                    <p class="abrevia__texto">Emmet allows you to write large HTML code blocks at speed of light using well-known
+                            CSS selectors. But it’s not the only thing that every web-developer needs: occasionally you have to edit
+                            your HTML and CSS code to fix bugs and add new features.</p>
+                </div>
             </div>
         </section>
 
         <section class="abrevia">
-            <div class="abrevia__titulo container">
-            <h1>Actions</h1>
-                <p class="abrevia__texto">Emmet allows you to write large HTML code blocks at speed of light using well-known
-                CSS selectors. But it’s not the only thing that every web-developer needs: occasionally you have to edit
-                your HTML and CSS code to fix bugs and add new features.</p>
-            </div>
-            <div class="container">
-                <img class="abrevia__gif" src="assets/images/3.gif" alt="">
+            <div class="container box">
+                <img class="abrevia__gif" src="assets/images/2.gif" alt="">
+                <div class="abrevia__titulo">
+                    <h1>Customizations</h1>
+                    <p class="abrevia__texto">Emmet offers wide range of tweaks you can use to fine-tune your plugin experience.
+                            Almost all officially developed editor plugins (except PSPad and browser-based) has extensions support:
+                            a special folder where you can put json and js files to extend Emmet. Please refer to README file
+                            bundled with your editor’s plugin to find out where Emmet looks for extensions.</p>
+                </div>
             </div>
         </section>
 
         <section class="abrevia2">
-            <div class="abrevia__titulo2 container">
-                <h1>Customization</h1>
-                <p class="abrevia__texto2">Emmet offers wide range of tweaks you can use to fine-tune your plugin experience.
-                Almost all officially developed editor plugins (except PSPad and browser-based) has extensions support:
-                a special folder where you can put json and js files to extend Emmet. Please refer to README file
-                bundled with your editor’s plugin to find out where Emmet looks for extensions.</p>
-            </div>
-            <div class="container">
+            <div class="container box">
                 <img class="abrevia__gif2" src="assets/images/2.gif" alt="">
+                <div class="abrevia__titulo2">
+                    <h1>CSS Abreviattions</h1>
+                    <p class="abrevia__texto">While Emmet abbreviations are good for generating HTML, XML or any other
+                        structured
+                        markup, it may look useless for CSS. You don’t want to write CSS selectors and transform them to
+                        CSS
+                        selectors, right? The only thing Emmet can do for you is to provide shorthands for CSS
+                        properties, but
+                        editors with native snippets and autocomplete can help you way better.</p>
+                </div>
             </div>
         </section>
 
         <section class="ide">
-            <h1 class="ide__titulo">IDE using Emmet</h1>
-            <div class="ide__bloco">
-                <a href="https://www.jetbrains.com/phpstorm/" title="JetBrains WebSite" style="text-decoration: none">
-                <div class="ide__card">
-                    <img src="assets/images/phpstorm.png" alt="Logo da IDE PhpStorm" class="ide__imagens">
-                    <h1 class="title__card">PhpStorm</h1>  
+            <!-- <div class="container"> -->
+                <h1 class="ide__titulo">IDE using Emmet</h1>
+                <div class="ide__bloco">
+                    <a href="https://www.jetbrains.com/phpstorm/" title="JetBrains WebSite" style="text-decoration: none">
+                    <div class="ide__card">
+                        <img src="assets/images/phpstorm.png" alt="Logo da IDE PhpStorm" class="ide__imagens">
+                        <h1 class="title__card">PhpStorm</h1>  
+                    </div>
+                    </a>
+                    <a href="https://www.eclipse.org" title="Eclipse WebSite" style="text-decoration: none">
+                    <div class="ide__card">
+                        <img src="assets/images/eclipse.png" alt="Logo da IDE Eclipse" class="ide__imagens">
+                        <h1 class="title__card">Eclipse</h1>
+                    </div>
+                    </a>
+                    <a href="http://brackets.io/" title="Brackets WebSite" style="text-decoration: none">
+                    <div class="ide__card">
+                        <img src="assets/images/brackets.png" alt="Logo da IDE Brackets" class="ide__imagens">
+                        <h1 class="title__card">Brackets</h1>
+                    </div>
+                    </a>
+                    <a href="https://code.visualstudio.com/" title="Visual Studio Code WebSite" style="text-decoration: none">
+                    <div class="ide__card">
+                        <img src="assets/images/vscode.png" alt="Logo da IDE Visual Studio Code" class="ide__imagens">
+                        <h1 class="title__card">VS Code</h1>
+                    </div>
+                    </a>
+                <!-- </div> -->
                 </div>
-                </a>
-                <a href="https://www.eclipse.org" title="Eclipse WebSite" style="text-decoration: none">
-                <div class="ide__card">
-                    <img src="assets/images/eclipse.png" alt="Logo da IDE Eclipse" class="ide__imagens">
-                    <h1 class="title__card">Eclipse</h1>
-                </div>
-                </a>
-                <a href="http://brackets.io/" title="Brackets WebSite" style="text-decoration: none">
-                <div class="ide__card">
-                    <img src="assets/images/brackets.png" alt="Logo da IDE Brackets" class="ide__imagens">
-                    <h1 class="title__card">Brackets</h1>
-                </div>
-                </a>
-                <a href="https://code.visualstudio.com/" title="Visual Studio Code WebSite" style="text-decoration: none">
-                <div class="ide__card">
-                    <img src="assets/images/vscode.png" alt="Logo da IDE Visual Studio Code" class="ide__imagens">
-                    <h1 class="title__card">VS Code</h1>
-                </div>
-                </a>
-            </div>
-        </section>
+            </section>
     </main>
 
     <footer class="rodape">
@@ -135,6 +141,19 @@
                 <div class="rodape__emmet-subtitulo">Tools for web developers<br>_________________________</br>
                     <div class="rodape__emmet-email">Support: info@emmet.io</div>
                 </div>
+            </div>
+
+            <div class="rodape__blog">
+                <p class="rodape__blog--titulo">From Blog</p>
+
+                <p class="rodape__blog--forum"><a href="https://emmet.io/blog/beta-v1-1/" target="_blank">Beta version of Emmet v1.1</a></p>
+                <p class="rodape__blog--data">December 23, 2013, <a href="#" target="_blank">0 comments</a></p>
+
+                <p class="rodape__blog--forum"><a href="https://emmet.io/blog/sublime-tern/" target="_blank">TernJS plugin for Sublime Text</a></p>
+                <p class="rodape__blog--data">April 3, 2013, <a href="#" target="_blank">0 comments</a></p>
+
+                <p class="rodape__blog--forum"><a href="https://emmet.io/blog/sublime-text-3/" target="_blank">Sublime Text 3 support</a></p>
+                <p class="rodape__blog--data">February 25, 2013, <a href="#" target="_blank">0 comments</a></p>
             </div>
 
             <div class="rodape__redes">
@@ -160,4 +179,5 @@
     </footer>
 
 </body>
+
 </html>
