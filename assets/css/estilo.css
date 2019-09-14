@@ -82,7 +82,6 @@
 .disable{
     display: flex;
 }
-
 .menu__item > a{
     padding-top: 15px;
     padding-bottom: 15px;
@@ -92,11 +91,9 @@
     color: white;
     display: block;
 }
-
 img{
     cursor: pointer;
 }
-
 .menu__item > a:hover{
     color: rgb(230, 230, 224);   
     text-decoration: underline;
@@ -154,6 +151,7 @@ img{
     border-radius: 10px;
     float: right;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: auto;
 }
 .abrevia__gif2{
     max-width: 400px;
@@ -161,6 +159,7 @@ img{
     margin-left: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: auto;
 }
 
 @media(max-width: 1050px) {
@@ -310,7 +309,8 @@ img{
 .rodape__box{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 30px;
 }
 
 .rodape__emmet-titulo{
@@ -361,6 +361,9 @@ img{
 .rodape__blog--titulo{
     margin-bottom: 20px;
 }
+.rodape__blog--forum > a:visited{
+    color: lightgreen;
+}
 .rodape__blog--data{
     margin-top: 10px;
     margin-bottom: 15px;
@@ -370,6 +373,9 @@ img{
 .rodape__blog--data > a{
     text-decoration: none;
     color: gray
+}
+.rodape__blog--data > a:visited{
+    color: lightgreen;
 }
 .rodape__blog--data > a:hover{
     color: white;
