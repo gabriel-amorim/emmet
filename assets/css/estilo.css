@@ -337,9 +337,12 @@ img{
     padding: 5px 0;
 }
 
-.rodape__emmet-email{
+.rodape__emmet-suporte{
     text-align: left;
     padding: 10px 0 5px 0;
+}
+.rodape__email:hover{
+    color: white;
 }
 
 .rodape__imagens{
