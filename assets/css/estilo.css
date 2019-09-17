@@ -202,7 +202,7 @@ img{
     }
 }
 
-@media(max-width: 650px) {
+@media(max-width: 600px) {
     .abrevia{
         height: 520px;
     }
