@@ -97,10 +97,8 @@
 img{
     cursor: pointer;
 }
-.menu__item > a:hover{
-    color: rgb(230, 230, 224);   
-    text-decoration: underline;
-    text-decoration-color: #34e431;
+.menu__item > a:hover{  
+    color: #34e431;
 }
 
 @media (min-width: 700px){
@@ -401,5 +399,9 @@ img{
 }
 .rodape__blog--forum > a:hover{
     color: white;
+}
+
+html{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
