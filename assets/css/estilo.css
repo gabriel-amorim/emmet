@@ -21,16 +21,19 @@
     padding-top: 10px;
     overflow: hidden;
 }
-
 .logo{
     display: inline-block;
     vertical-align: middle;
     width: 65px;
     height: 65px;
-/*     margin-left: 30px; */
+    margin-left: 20px;
     text-decoration: none;
 }
-
+@media(max-width: 600px) {
+    .logo{
+        margin-left: 0;
+    }
+}
 .helper{
     display: inline-block;
     vertical-align: middle;
@@ -42,7 +45,7 @@
     font-family: 'Rubik Mono One', sans-serif;
     color: #fff;
     font-size: 22px;
-    padding-left : 20px;
+    padding-left : 5px;
     vertical-align: middle;
 }
 @media(max-width: 600px) {
@@ -215,15 +218,15 @@ img{
         font-size: 20px;
     }
     .abrevia__gif{
-        max-width: 327px;
+        max-width: 90%;
         margin-top: 30px;
     }
     .abrevia__gif2{
-        max-width: 327px;
+        max-width: 90%;
         margin-top: 30px;
     }
     .abrevia__texto{
-        max-width: 327px;
+        max-width: 90%;
         font-size: 14px;
     }
 }
@@ -309,17 +312,24 @@ img{
 .rodape__box{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 0 30px;
+    justify-content: space-around;
+    margin-left: -15px;
 }
-
+.keycdn__logo{
+    margin-left: 18px;
+}
 .rodape__emmet-titulo{
     color: white;
     text-shadow: 0.5px 0.5px 1px black;
     font-size: 26px;
     font-weight: bold;
     text-align: left;
-    margin-left: 20px;
+    margin-top: 5px;
+}
+@media(max-width: 600px) {
+    .rodape__emmet-titulo{
+            margin-left: 20px;
+    }
 }
 
 .rodape__emmet-subtitulo{
@@ -352,6 +362,12 @@ img{
 .rodape__blog{
     font-size: 14px;
     color: gray;
+    padding: 0 150px;
+}
+@media(max-width: 1050px) {
+    .rodape__blog{
+        padding: 0;
+    }
 }
 @media(max-width: 700px){
     .rodape__blog{
@@ -387,3 +403,4 @@ img{
 .rodape__blog--forum > a:hover{
     color: white;
 }
+
