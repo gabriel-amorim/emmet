@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Rubik+Mono+One&display=swap');
+
 /* CSS RESET */
 *{
     padding: 0;
@@ -407,4 +409,6 @@ img{
 html{
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
+
 
